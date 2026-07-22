@@ -1,3 +1,16 @@
-bin/
+# Compiled Java files
 *.class
+
+# Build folders
+bin/
+out/
+target/
+
+# VS Code
 .vscode/
+
+# IntelliJ
+.idea/
+
+# OS files
+.DS_Store
