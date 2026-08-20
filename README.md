@@ -15,6 +15,7 @@ JavaLearning/
 │   ├── lesson06/   → Loops & Pattern Printing
 │   ├── lesson07/   → Methods & Mini Project
 │   └── lesson08/   → Arrays, Searching & Sorting
+|   └── lesson09/   → Strings
 └── bin/            → Compiled .class output (ignored by git)
 ```
 
@@ -30,6 +31,7 @@ JavaLearning/
 | 06 | [Loops](src/fundamentals/lesson06) | while, do-while, for, break, continue, nested loops, pattern printing | Done |
 | 07 | [Methods](src/fundamentals/lesson07) | Method declaration, parameters, return types, overloading, Student Result Management System (mini project) | Done |
 | 08 | [Arrays](src/fundamentals/lesson08) | Declaration, traversal, searching, sorting, rotation & array utilities | Done |
+| 09 | [Strings](src/fundamentals/lesson09) | Traversal, immutability, substring, concatenation, vowel/consonant count, reverse, palindrome, character frequency, duplicate removal, anagram, StringBuilder, StringBuffer | Done |
 
 More lessons get added as I go.
 
@@ -42,6 +44,7 @@ A few things worth calling out from each lesson:
 - **Lesson 06, Loops**: `while` vs `do-while` vs `for`, nested loops, and nine pattern-printing programs (stars, numbers, characters).
 - **Lesson 07, Methods**: overloading, plus a small Student Result Management System that calculates percentage, grade, and pass/fail, and prints a formatted marksheet.
 - **Lesson 08, Arrays**: declaration and traversal, linear and binary search, bubble and selection sort, array reversal (including the actual reversal algorithm, not just `Arrays.sort` tricks), left/right rotation, duplicate detection, frequency counting, and finding the second-largest element.
+- **Lesson 09, Strings**: `charAt` vs `toCharArray`, `==` vs `equals()` and why string pooling matters, why `String` is immutable and what that means for methods like `concat`/`toUpperCase`, `substring`'s `[start, end)` rule, vowel/consonant counting, string reversal and palindrome checks with two pointers, character frequency counting, duplicate detection/removal, anagram checking, and `StringBuilder`/`StringBuffer` for mutable strings.
 
 ## Running a file
 
